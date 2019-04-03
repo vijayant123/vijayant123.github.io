@@ -390,73 +390,72 @@
     <!-- Footer -->
     <!-- Footer -->
 <footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <ul class="list-inline text-center">
-                
-                
-                    <li>
-                        <a target="_blank" href="https://twitter.com/Vijayant_123">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                
-                
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center">
+          
+          
+          <li>
+            <a target="_blank" href="https://twitter.com/Vijayant_123">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
 
-                
+          
 
-                
-                    <li>
-                        <a target="_blank" href="https://www.facebook.com/vijayant.saini123">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                
+          
+          <li>
+            <a target="_blank" href="https://www.facebook.com/vijayant.saini123">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
 
-                
-                    <li>
-                        <a target="_blank" href="https://github.com/vijayant123">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                
+          
+          <li>
+            <a target="_blank" href="https://github.com/vijayant123">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
 
-                
-                    <li>
-                        <a target="_blank" href="https://www.linkedin.com/in/vijayant123">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                
+          
+          <li>
+            <a target="_blank" href="https://www.linkedin.com/in/vijayant123">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
 
-                </ul>
-                <p class="copyright text-muted">
-                    Copyright &copy; Vijayant Saini 2019 
-                    <br>
-                    Theme by <a href="http://beantech.org">BeanTech</a> 
-                    <span style="display: inline-block; margin: 0 5px;">
-                        <i class="fa fa-heart"></i>
-                    </span> 
-                    re-Ported by <a href="http://www.huweihuang.com">胡伟煌</a> | 
-                    <iframe style="margin-left: 2px; margin-bottom:-5px;" frameborder="0" scrolling="0" width="91px" height="20px" src="https://ghbtns.com/github-btn.html?user=huweihuang&repo=hexo-theme-huweihuang&type=star&count=true">
-                    </iframe>
-                </p>
-            </div>
-        </div>
+        </ul>
+        <p class="copyright text-muted">
+          Copyright &copy; Vijayant Saini 2019
+          <br>
+          Theme by <a href="http://beantech.org">BeanTech</a>
+          <span style="display: inline-block; margin: 0 5px;">
+            <i class="fa fa-heart"></i>
+          </span>
+          re-Ported by <a href="http://www.huweihuang.com">胡伟煌</a> |
+          <a href="/sitemap.xml">Sitemap</a>
+        </p>
+      </div>
     </div>
+  </div>
 </footer>
 
 <!-- jQuery -->
@@ -471,14 +470,14 @@
 
 <!-- async load function -->
 <script>
-    function async(u, c) {
-      var d = document, t = 'script',
-          o = d.createElement(t),
-          s = d.getElementsByTagName(t)[0];
-      o.src = u;
-      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
-      s.parentNode.insertBefore(o, s);
-    }
+  function async(u, c) {
+    var d = document, t = 'script',
+      o = d.createElement(t),
+      s = d.getElementsByTagName(t)[0];
+    o.src = u;
+    if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+    s.parentNode.insertBefore(o, s);
+  }
 </script>
 
 <!-- 
@@ -502,24 +501,24 @@
 
 <!-- jquery.tagcloud.js -->
 <script>
-    // only load tagcloud.js in tag.html
-    if($('#tag_cloud').length !== 0){
-        async("https://vijayant.page/js/jquery.tagcloud.js",function(){
-            $.fn.tagcloud.defaults = {
-                //size: {start: 1, end: 1, unit: 'em'},
-                color: {start: '#bbbbee', end: '#0085a1'},
-            };
-            $('#tag_cloud a').tagcloud();
-        })
-    }
+  // only load tagcloud.js in tag.html
+  if ($('#tag_cloud').length !== 0) {
+    async("https://vijayant.page/js/jquery.tagcloud.js", function () {
+      $.fn.tagcloud.defaults = {
+        //size: {start: 1, end: 1, unit: 'em'},
+        color: { start: '#bbbbee', end: '#0085a1' },
+      };
+      $('#tag_cloud a').tagcloud();
+    })
+  }
 </script>
 
 <!--fastClick.js -->
 <script>
-    async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
-        var $nav = document.querySelector("nav");
-        if($nav) FastClick.attach($nav);
-    })
+  async("https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function () {
+    var $nav = document.querySelector("nav");
+    if ($nav) FastClick.attach($nav);
+  })
 </script>
 
 
@@ -529,9 +528,6 @@
 
 
 <!-- Baidu Tongji -->
-
-
-
 
 
 
